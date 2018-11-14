@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="bc771c67-8700-44ea-8300-e56e73f40e3f" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<flow name="ci-cd-testappFlow" doc:id="8e227bf8-6e3c-4079-b03b-9f83cf5b3fde" >
+		<http:listener doc:name="Listener" doc:id="bda4b911-b8f0-4acf-819d-60a2702c9c6e" config-ref="HTTP_Listener_config" path="/hello"/>
+		<logger level="INFO" doc:name="Logger" doc:id="3dfd9907-56c4-4e92-b2d3-acb7a1aedb10" />
+		<set-payload value="#[Merci]" doc:name="Set Payload" doc:id="e24f3029-8205-40a2-b135-f242fb360f52" />
+	</flow>
+</mule>
