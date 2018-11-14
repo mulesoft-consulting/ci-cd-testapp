@@ -29,13 +29,13 @@
 					<cloudHubDeployment>
 						<!-- muleVersion is the runtime version as it appears on the CloudHub interface -->
 						<muleVersion>${app.runtime}</muleVersion>
-						<username>${uid}</username>
-						<password>${pwd}</password>
+						<username>${username}</username>
+						<password>${password}</password>
 						<applicationName>${project.artifactId}</applicationName>
-						<environment>Sandbox</environment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<region>eu-central-1</region>
-						<!--<businessGroup>AcmeEurope</businessGroup> -->
+						<environment>${environment}</environment>
+						<businessGroup>SAP and SF Demo</businessGroup>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
