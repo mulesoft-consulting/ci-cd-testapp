@@ -122,15 +122,15 @@
               <goal>package</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -140,15 +140,15 @@
               <goal>generate-test-sources</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -158,15 +158,15 @@
               <goal>clean</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -176,15 +176,15 @@
               <goal>test-compile</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -194,15 +194,15 @@
               <goal>generate-test-resources</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -212,15 +212,15 @@
               <goal>site</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -230,15 +230,15 @@
               <goal>compile</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -248,15 +248,15 @@
               <goal>process-sources</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -266,15 +266,15 @@
               <goal>process-resources</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -284,15 +284,15 @@
               <goal>process-classes</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -302,15 +302,15 @@
               <goal>initialize</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -320,15 +320,15 @@
               <goal>generate-sources</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
           <execution>
@@ -338,28 +338,28 @@
               <goal>validate</goal>
             </goals>
             <configuration>
-              <deploymentType>cloudhub</deploymentType>
-              <muleVersion>4.1.4</muleVersion>
-              <username>${uid}</username>
-              <password>${pwd}</password>
-              <redeploy>true</redeploy>
-              <applicationName>ci-cd-testapp</applicationName>
-              <environment>Sandbox</environment>
-              <uri>https://eu1.anypoint.mulesoft.com</uri>
-              <region>eu-central-1</region>
+              <cloudHubDeployment>
+                <muleVersion>4.1.4</muleVersion>
+                <username>${uid}</username>
+                <password>${pwd}</password>
+                <applicationName>ci-cd-testapp</applicationName>
+                <environment>Sandbox</environment>
+                <uri>https://anypoint.mulesoft.com</uri>
+                <region>eu-central-1</region>
+              </cloudHubDeployment>
             </configuration>
           </execution>
         </executions>
         <configuration>
-          <deploymentType>cloudhub</deploymentType>
-          <muleVersion>4.1.4</muleVersion>
-          <username>${uid}</username>
-          <password>${pwd}</password>
-          <redeploy>true</redeploy>
-          <applicationName>ci-cd-testapp</applicationName>
-          <environment>Sandbox</environment>
-          <uri>https://eu1.anypoint.mulesoft.com</uri>
-          <region>eu-central-1</region>
+          <cloudHubDeployment>
+            <muleVersion>4.1.4</muleVersion>
+            <username>${uid}</username>
+            <password>${pwd}</password>
+            <applicationName>ci-cd-testapp</applicationName>
+            <environment>Sandbox</environment>
+            <uri>https://anypoint.mulesoft.com</uri>
+            <region>eu-central-1</region>
+          </cloudHubDeployment>
         </configuration>
       </plugin>
       <plugin>

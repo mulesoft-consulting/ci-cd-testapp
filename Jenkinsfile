@@ -14,10 +14,9 @@ pipeline{
  	stage ('Deploy'){
  		steps {
  			withMaven(maven:'maven'){
- 				sh 'mvn -f ci-cd-testapp/pom.xml package deploy  -Dusername=$ANYPOINT_USR -Dpassword=$ANYPOINT_PSW -Denvironment=Development -DmuleDeploy'
+ 				sh 'mvn -f ci-cd-testapp/pom.xml package deploy  -Dusername=$ANYPOINT_USR -Dpassword=$ANYPOINT_PSW -Denvironment=Sandbox -DmuleDeploy'
  			}
  		}
  	}
  }
-
 }

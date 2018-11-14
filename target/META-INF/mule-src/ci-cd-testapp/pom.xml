@@ -26,17 +26,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<deploymentType>cloudhub</deploymentType>
-					<!-- muleVersion is the runtime version as it appears on the CloudHub interface -->
-					<muleVersion>${app.runtime}</muleVersion>
-					<username>${uid}</username>
-					<password>${pwd}</password>
-					<redeploy>true</redeploy>
-					<applicationName>${project.artifactId}</applicationName>
-					<environment>Sandbox</environment>
-					<uri>https://eu1.anypoint.mulesoft.com</uri>
-					<region>eu-central-1</region>
-					<!--<businessGroup>AcmeEurope</businessGroup> -->
+					<cloudHubDeployment>
+						<!-- muleVersion is the runtime version as it appears on the CloudHub interface -->
+						<muleVersion>${app.runtime}</muleVersion>
+						<username>${uid}</username>
+						<password>${pwd}</password>
+						<applicationName>${project.artifactId}</applicationName>
+						<environment>Sandbox</environment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<region>eu-central-1</region>
+						<!--<businessGroup>AcmeEurope</businessGroup> -->
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
