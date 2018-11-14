@@ -124,12 +124,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -142,12 +143,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -160,12 +162,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -178,12 +181,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -196,12 +200,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -214,12 +219,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -232,12 +238,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -250,12 +257,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -268,12 +276,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -286,12 +295,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -304,12 +314,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -322,12 +333,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -340,12 +352,13 @@
             <configuration>
               <cloudHubDeployment>
                 <muleVersion>4.1.4</muleVersion>
-                <username>${uid}</username>
-                <password>${pwd}</password>
+                <username>${username}</username>
+                <password>${password}</password>
                 <applicationName>ci-cd-testapp</applicationName>
-                <environment>Sandbox</environment>
                 <uri>https://anypoint.mulesoft.com</uri>
                 <region>eu-central-1</region>
+                <environment>${environment}</environment>
+                <businessGroup>SAP and SF Demo</businessGroup>
               </cloudHubDeployment>
             </configuration>
           </execution>
@@ -353,12 +366,13 @@
         <configuration>
           <cloudHubDeployment>
             <muleVersion>4.1.4</muleVersion>
-            <username>${uid}</username>
-            <password>${pwd}</password>
+            <username>${username}</username>
+            <password>${password}</password>
             <applicationName>ci-cd-testapp</applicationName>
-            <environment>Sandbox</environment>
             <uri>https://anypoint.mulesoft.com</uri>
             <region>eu-central-1</region>
+            <environment>${environment}</environment>
+            <businessGroup>SAP and SF Demo</businessGroup>
           </cloudHubDeployment>
         </configuration>
       </plugin>
