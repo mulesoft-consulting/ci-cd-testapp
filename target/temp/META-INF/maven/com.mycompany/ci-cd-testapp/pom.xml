@@ -121,7 +121,17 @@
             <goals>
               <goal>package</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-generate-test-sources</id>
@@ -129,7 +139,17 @@
             <goals>
               <goal>generate-test-sources</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-clean</id>
@@ -137,7 +157,17 @@
             <goals>
               <goal>clean</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-test-compile</id>
@@ -145,7 +175,17 @@
             <goals>
               <goal>test-compile</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-generate-test-resources</id>
@@ -153,7 +193,17 @@
             <goals>
               <goal>generate-test-resources</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-site</id>
@@ -161,7 +211,17 @@
             <goals>
               <goal>site</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-compile</id>
@@ -169,7 +229,17 @@
             <goals>
               <goal>compile</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-process-sources</id>
@@ -177,7 +247,17 @@
             <goals>
               <goal>process-sources</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-process-resources</id>
@@ -185,7 +265,17 @@
             <goals>
               <goal>process-resources</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-process-classes</id>
@@ -193,7 +283,17 @@
             <goals>
               <goal>process-classes</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-initialize</id>
@@ -201,7 +301,17 @@
             <goals>
               <goal>initialize</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-generate-sources</id>
@@ -209,7 +319,17 @@
             <goals>
               <goal>generate-sources</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
           <execution>
             <id>default-validate</id>
@@ -217,10 +337,30 @@
             <goals>
               <goal>validate</goal>
             </goals>
-            <configuration></configuration>
+            <configuration>
+              <deploymentType>cloudhub</deploymentType>
+              <muleVersion>4.1.4</muleVersion>
+              <username>${uid}</username>
+              <password>${pwd}</password>
+              <redeploy>true</redeploy>
+              <applicationName>ci-cd-testapp</applicationName>
+              <environment>Sandbox</environment>
+              <uri>https://eu1.anypoint.mulesoft.com</uri>
+              <region>eu-central-1</region>
+            </configuration>
           </execution>
         </executions>
-        <configuration></configuration>
+        <configuration>
+          <deploymentType>cloudhub</deploymentType>
+          <muleVersion>4.1.4</muleVersion>
+          <username>${uid}</username>
+          <password>${pwd}</password>
+          <redeploy>true</redeploy>
+          <applicationName>ci-cd-testapp</applicationName>
+          <environment>Sandbox</environment>
+          <uri>https://eu1.anypoint.mulesoft.com</uri>
+          <region>eu-central-1</region>
+        </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
