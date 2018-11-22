@@ -35,7 +35,7 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<region>eu-central-1</region>
 						<environment>${environment}</environment>
-						<businessGroup>Prod</businessGroup>
+						<businessGroup>SAP and SF Demo</businessGroup>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
