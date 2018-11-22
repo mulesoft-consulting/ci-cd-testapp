@@ -31,11 +31,11 @@
 						<muleVersion>${app.runtime}</muleVersion>
 						<username>${username}</username>
 						<password>${password}</password>
-						<applicationName>${project.artifactId}</applicationName>
+						<applicationName>${project.artifactId}-farhad</applicationName>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<region>eu-central-1</region>
 						<environment>${environment}</environment>
-						<businessGroup>SAP and SF Demo</businessGroup>
+						<businessGroup>Prod</businessGroup>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
