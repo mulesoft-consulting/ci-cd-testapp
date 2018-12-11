@@ -13,7 +13,7 @@
 			<flow-ref doc:name="Flow-ref to ci-cd-testappFlow" doc:id="8b25027b-573a-4d5a-a3ce-f17effb16799" name="ci-cd-testappFlow"/>
 		</munit:execution>
 		<munit:validation >
-			<munit-tools:assert-that expression="#[payload]" is="#[MunitTools::equalTo('Hallo')]" doc:name="Assert that"/>
+			<munit-tools:assert-that expression="#[payload]" is="#[MunitTools::equalTo('Hello')]" doc:name="Assert that"/>
 				</munit:validation>
 	</munit:test>
 
