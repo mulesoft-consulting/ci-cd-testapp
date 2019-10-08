@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="ci-cd-testappFlow" doc:id="8e227bf8-6e3c-4079-b03b-9f83cf5b3fde" >
 		<http:listener doc:name="Listener" doc:id="bda4b911-b8f0-4acf-819d-60a2702c9c6e" config-ref="HTTP_Listener_config" path="/hello"/>
-		<logger level="INFO" doc:name="Logger" doc:id="3dfd9907-56c4-4e92-b2d3-acb7a1aedb10" message="test2646363"/>
+		<logger level="INFO" doc:name="Logger" doc:id="3dfd9907-56c4-4e92-b2d3-acb7a1aedb10" message="TEST LOGGER"/>
 		<set-payload value="Hallo" doc:name="Set Payload" doc:id="31ce6cd0-4b28-4a6d-9b43-afe9bd68719a" />
 		<logger level="INFO" doc:name="Logger" doc:id="f139ef05-737b-4b97-b8c9-01396bd13955"/>
 	</flow>

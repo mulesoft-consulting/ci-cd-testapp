@@ -12,7 +12,8 @@
     "attributes": {
       "exportedPackages": [],
       "exportedResources": [
-        "log4j2.xml"
+        "log4j2.xml",
+        "ci-cd-testapp.xml"
       ]
     }
   },

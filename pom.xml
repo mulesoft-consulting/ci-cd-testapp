@@ -13,8 +13,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<app.runtime>4.1.4</app.runtime>
-		<mule.maven.plugin.version>3.1.6</mule.maven.plugin.version>
+		<app.runtime>4.2.1</app.runtime>
+		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
 	<munit.version>2.1.4</munit.version>
     </properties>
 
@@ -36,6 +36,9 @@
 						<region>eu-central-1</region>
 						<environment>${environment}</environment>
 						<businessGroup>SAP and SF Demo</businessGroup>
+						<properties>
+							<key>anypoint.platform.config.analytics.agent.enabled=true</key>
+						</properties>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
